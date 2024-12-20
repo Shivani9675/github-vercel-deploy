@@ -17,13 +17,13 @@ describe('AppComponent', () => {
   it(`should have the 'github-vercel-deploy' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('github-vercel-deploy');
+    expect(app.title).toEqual('Github-Vercel-Deploy');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, github-vercel-deploy');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, Github-Vercel-Deploy');
   });
 });
